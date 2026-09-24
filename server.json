@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/cnpj-br",
   "title": "Cnpj Br",
   "description": "CNPJ Brazil MCP — Brazilian company-registry (Receita Federal) lookup via",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/cnpj-br",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-cnpj-br",

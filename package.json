@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-cnpj-br",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CNPJ Brazil MCP — Brazilian company-registry (Receita Federal) lookup via",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-cnpj-br": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "cnpj-br"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-cnpj-br"
+    "url": "git+https://github.com/pipeworx-io/mcp-cnpj-br.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-b6be2d86657f6921d0b41e4428ad37074808be3565eb60eee88756e282f8606c",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
