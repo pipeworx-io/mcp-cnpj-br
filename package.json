@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-cnpj-br",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CNPJ Brazil MCP — Brazilian company-registry (Receita Federal) lookup via",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-b6be2d86657f6921d0b41e4428ad37074808be3565eb60eee88756e282f8606c",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-9c7680957b0ef797c636cc79f303ef1abd4b19f3aea0737b0daddca8a5541e5d",
+    "sourceCommit": "5b29c2b0c11e1fcd954969a245b474e6e9475116"
   }
 }
