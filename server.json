@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/cnpj-br",
   "title": "Cnpj Br",
-  "description": "CNPJ Brazil MCP — Brazilian company-registry (Receita Federal) lookup via",
-  "version": "0.1.2",
+  "description": "CNPJ Brazil MCP — Brazilian company-registry (Receita Federal) lookup via minhareceita.org, an…",
+  "version": "0.1.3",
   "websiteUrl": "https://pipeworx.io/packs/cnpj-br",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-cnpj-br",
