@@ -1,0 +1,18 @@
+[
+  {
+    "name": "cnpj_lookup",
+    "description": "Look up a Brazilian company in the CNPJ registry (Receita Federal, Brazil's federal tax authority) — the primary KYB / due-diligence check for any Brazil company. Give a 14-digit CNPJ (punctuation ok: \"33.683.111/0002-80\") and get legal name (razão social), trade name, registration status, opening date, legal nature, main CNAE activity, address, share capital, company size, Simples Nacional / MEI tax-regime flags, and the partner/officer list (QSA) with roles. Example: cnpj_lookup({ cnpj: \"33683111000280\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "cnpj": {
+          "type": "string",
+          "description": "The company's CNPJ — 14 digits, with or without punctuation, e.g. \"33.683.111/0002-80\" or \"33683111000280\""
+        }
+      },
+      "required": [
+        "cnpj"
+      ]
+    }
+  }
+]
