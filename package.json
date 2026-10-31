@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-cnpj-br",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CNPJ Brazil MCP — Brazilian company-registry (Receita Federal) lookup via minhareceita.org, an open mirror of the Receita Federal CNPJ open-data dumps.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "cnpj-br",
     "gatewaySlug": "cnpj-br",
-    "sourceHash": "v1-ba3a597263cd85ecd67fea595ded8109787c96244f78ec6b8c0dfcb46b713b27",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-c8ac758854109db732b0de356022d8bb8bd338647bbb6d72c62c24a5f0eacefb",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
